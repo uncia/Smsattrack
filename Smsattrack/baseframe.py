@@ -20,7 +20,6 @@ class SmsFrame(object):
     }
     def __init__(self, shell=True):
         if shell:
-            self._init_parser()
             self.shell = shell
 
     def _init_parser(self, do_parse=True):
